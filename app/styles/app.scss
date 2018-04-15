@@ -1,6 +1,33 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'resets';
+
+.top-nav {
+  background-color: #e7e7e7;
+  padding: 1rem;
+
+  &__left {
+    display: flex;
+  }
+
+  &__title {
+    font-family: 'Comfortaa', cursive;
+    align-self: center;
+    font-size: 2rem;
+  }
+
+
+
+  &__right {
+
+  }
+
+  &__item {
+    display: inline;
+    padding: 0 1rem;
+  }
+}
