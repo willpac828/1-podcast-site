@@ -19,3 +19,12 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
+.vertical-flex-container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

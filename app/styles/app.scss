@@ -6,8 +6,10 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 @import 'resets';
 
+
+// nav styles start here
 .top-nav {
-  background-color: #fff353;
+  background-color: white;
   padding: 1rem;
 
   &__left {
@@ -29,5 +31,39 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   &__item {
     display: inline;
     padding: 0 1rem;
+  }
+}
+
+// Hero styles start here
+
+.hero {
+  background: linear-gradient(to right, #fff353 0%, #f9f9f9 50%, #fff353 100% );
+
+
+  &__message {
+    text-transform: uppercase;
+    // color: white;
+    margin: 0 auto;
+    padding: 5rem 0;
+    font-size: 4rem;
+    font-family: 'Comfortaa', cursive;
+  }
+}
+
+.graphic {
+  display: flex;
+  justify-content: center;
+
+  &__line--one {
+
+  }
+  &__line--two {
+
+  }
+  &__line--three {
+    background-color: black;
+    width: 40rem;
+    height: 0.5rem;
+
   }
 }
