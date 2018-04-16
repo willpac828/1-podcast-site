@@ -18,6 +18,8 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
   &__title {
     font-family: 'Comfortaa', cursive;
+    // text-shadow: 2px 2px #bbb;
+    text-transform: uppercase;
     align-self: center;
     font-size: 2rem;
   }
@@ -31,13 +33,27 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   &__item {
     display: inline;
     padding: 0 1rem;
+    font-family: 'Comfortaa', cursive;
+    color: #666;
+    text-transform: uppercase;
+    cursor: pointer;
   }
 }
 
+.important {
+  font-size: 1.4rem;
+  color: black;
+  // transition: all 0.1s ease-in;
+
+  &:hover {
+    color: red;
+    // transform: translateY(-5px);
+  }
+}
 // Hero styles start here
 
 .hero {
-  background: linear-gradient(to right, #fff353 0%, #f9f9f9 50%, #fff353 100% );
+  background: linear-gradient(to right, #fff353 0%, #fffde8 40%, #fffde8 60%, #fff353 100% );
 
 
   &__message {
@@ -47,6 +63,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
     padding: 5rem 0;
     font-size: 4rem;
     font-family: 'Comfortaa', cursive;
+    font-weight: 100;
   }
 }
 
