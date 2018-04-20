@@ -1,87 +1,18 @@
 // @import 'yoga';
 // @import 'normalize';
 
+
+
+// colors
+$c-white: #fff;
+$c-fade-text: #666;
+$c-black: #000;
+$c-pop: #e33;
+
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'resets';
-
-
-// nav styles start here
-.top-nav {
-  background-color: white;
-  padding: 1rem;
-
-  &__left {
-    display: flex;
-  }
-
-  &__title {
-    font-family: 'Comfortaa', cursive;
-    // text-shadow: 2px 2px #bbb;
-    text-transform: uppercase;
-    align-self: center;
-    font-size: 2rem;
-
-  }
-
-
-
-  &__right {
-
-  }
-
-  &__item {
-    display: inline-block;
-    padding: 0 1rem;
-    font-family: 'Comfortaa', cursive;
-    color: #666;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-}
-
-.important {
-  font-size: 1.4rem;
-  // color: black;
-  transition: all 0.2s ease-in;
-
-  &:hover {
-    color: red;
-    transform: translateY(-5px) scale(1.1);
-  }
-}
+@import 'nav';
+@import 'hero';
 // Hero styles start here
-
-.hero {
-  background: linear-gradient(to right, #fff353 0%, #fffde8 40%, #fffde8 60%, #fff353 100% );
-
-
-  &__message {
-    text-transform: uppercase;
-    // color: white;
-    margin: 0 auto;
-    padding: 5rem 0;
-    font-size: 4rem;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 100;
-  }
-}
-
-.graphic {
-  display: flex;
-  justify-content: center;
-
-  &__line--one {
-
-  }
-  &__line--two {
-
-  }
-  &__line--three {
-    background-color: black;
-    width: 40rem;
-    height: 0.5rem;
-
-  }
-}

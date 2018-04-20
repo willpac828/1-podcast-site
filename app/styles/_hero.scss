@@ -1,0 +1,72 @@
+.hero {
+  background: linear-gradient(to right, #fff353 0%, #fffde8 40%, #fffde8 60%, #fff353 100% );
+
+
+  &__message {
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 5rem 0;
+    font-size: 4rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 100;
+  }
+}
+// can refactor this code
+
+.graphic {
+  display: flex;
+  justify-content: center;
+
+  &__center {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__end {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  &__line--one {
+    background-color: $c-black;
+    height: 0.4rem;
+    width: 3.5rem;
+    transform: rotate(-25deg);
+    position: relative;
+    bottom: 0.5rem;
+  }
+  &__line--two {
+    background-color: $c-black;
+    height: 0.4rem;
+    width: 3.5rem;
+    transform: rotate(25deg);
+    position: relative;
+    top: 0.5rem;
+  }
+  &__line--three {
+    // background-color: $c-black;
+    background-color: $c-black;
+    width: 25rem;
+    height: 0.4rem;
+    align-self: center;
+  }
+
+  &__line--four {
+    background-color: $c-black;
+    height: 0.4rem;
+    width: 3.5rem;
+    transform: rotate(25deg);
+    position: relative;
+    bottom: 0.5rem;
+  }
+
+  &__line--five {
+    background-color: $c-black;
+    height: 0.4rem;
+    width: 3.5rem;
+    transform: rotate(-25deg);
+    position: relative;
+    top: 0.5rem;
+  }
+}

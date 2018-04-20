@@ -1,0 +1,48 @@
+
+
+.top-nav {
+  background-color: $c-white;
+  padding: 1rem;
+
+  &__left {
+    display: flex;
+  }
+
+  &__title {
+    font-family: 'Comfortaa', cursive;
+    // text-shadow: 2px 2px #bbb;
+    text-transform: uppercase;
+    align-self: center;
+    font-size: 2rem;
+
+  }
+
+
+
+  &__right {
+
+  }
+
+  &__item {
+    display: inline-block;
+    padding: 0 1rem;
+    font-family: 'Comfortaa', cursive;
+    color: $c-fade-text;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.important {
+  font-size: 1.4rem;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    color: $c-pop;
+    transform: translateY(-5px) scale(1.1);
+  }
+}
