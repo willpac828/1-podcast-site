@@ -22,6 +22,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
     text-transform: uppercase;
     align-self: center;
     font-size: 2rem;
+
   }
 
 
@@ -31,7 +32,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   }
 
   &__item {
-    display: inline;
+    display: inline-block;
     padding: 0 1rem;
     font-family: 'Comfortaa', cursive;
     color: #666;
@@ -42,12 +43,12 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 .important {
   font-size: 1.4rem;
-  color: black;
-  // transition: all 0.1s ease-in;
+  // color: black;
+  transition: all 0.2s ease-in;
 
   &:hover {
     color: red;
-    // transform: translateY(-5px);
+    transform: translateY(-5px) scale(1.1);
   }
 }
 // Hero styles start here
