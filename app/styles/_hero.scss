@@ -1,11 +1,18 @@
 .hero {
-  background: linear-gradient(to right, #fff353 0%, #fffde8 40%, #fffde8 60%, #fff353 100% );
+  background: linear-gradient(to right, #fff353 0%, #fffde8 40%, #fffde8 60%, #fff353 100%);
 
+  &:hover {
+
+    .graphic__line--three {
+
+      width: 40rem;
+    }
+  }
 
   &__message {
     text-transform: uppercase;
     margin: 0 auto;
-    padding: 0 0 5rem 0;
+    padding: 0 0 5rem;
     font-size: 4rem;
     font-family: 'Comfortaa', cursive;
     font-weight: 100;
@@ -36,6 +43,7 @@
     position: relative;
     bottom: 0.5rem;
   }
+
   &__line--two {
     background-color: $c-black;
     height: 0.4rem;
@@ -44,13 +52,17 @@
     position: relative;
     top: 0.5rem;
   }
+
   &__line--three {
     // background-color: $c-black;
     background-color: $c-black;
     width: 25rem;
     height: 0.4rem;
     align-self: center;
+    transition: all 0.5s ease-out;
+
   }
+
 
   &__line--four {
     background-color: $c-black;

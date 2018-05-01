@@ -9,15 +9,20 @@
   }
 
   &__title {
+    color: $c-fade-text;
     font-family: 'Comfortaa', cursive;
     // text-shadow: 2px 2px #bbb;
     text-transform: uppercase;
     align-self: center;
     font-size: 2rem;
+    transition: all 0.2s linear;
 
+    &:hover {
+      transform: scale(1.1);
+      color: $c-black;
+
+    }
   }
-
-
 
   &__right {
 
