@@ -1,11 +1,27 @@
 
 
+// animations
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+      }
+
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+
 .top-nav {
   background-color: $c-white;
   padding: 1rem;
 
   &__left {
     display: flex;
+    animation: fadeIn 2s ease-in;
   }
 
   &__title {
@@ -25,7 +41,7 @@
   }
 
   &__right {
-
+    animation: fadeIn 2s ease-in;
   }
 
   &__item {
@@ -35,6 +51,8 @@
     color: $c-fade-text;
     text-transform: uppercase;
     cursor: pointer;
+
+
 
     &:hover {
       color: #000;

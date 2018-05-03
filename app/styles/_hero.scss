@@ -1,7 +1,27 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+      }
+
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.quick {
+  visibility: hidden;
+}
+
 .hero {
   background: linear-gradient(to right, #fff353 0%, #fffde8 40%, #fffde8 60%, #fff353 100%);
 
   &:hover {
+
+    .quick {
+      animation: fadeIn 1s ease-in forwards;
+    }
 
     .graphic__line--three {
 
