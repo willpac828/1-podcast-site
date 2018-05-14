@@ -1,7 +1,9 @@
+// Need to fix the arrow animation. too rigid
+
 @keyframes fadeIn {
   from {
-    opacity: 0;
-    visibility: hidden;
+    opacity: 0.1;
+    visibility: visible;
       }
 
   to {
@@ -11,11 +13,12 @@
 }
 
 .quick {
-  visibility: hidden;
+  opacity: 0.02;
+  // visibility: visible;
 }
 
 .hero {
-  background: linear-gradient(to right, #fff353 0%, #fffde8 40%, #fffde8 60%, #fff353 100%);
+  background: linear-gradient(to right, #fff353 0%, #fffde8 20%, #fffde8 80%, #fff353 100%);
 
   &:hover {
 
